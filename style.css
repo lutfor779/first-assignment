@@ -16,8 +16,8 @@ span {
 }
 .flexiable {
   display: flex;
-  height: 1000px;
-  margin-bottom: 150px;
+  height: 800px;
+  margin-bottom: 400px;
 }
 .half-width {
   width: 50%;
@@ -43,5 +43,16 @@ span {
   border-radius: 60px;
 }
 .ancor-position {
-  margin-top: 90px;
+  margin-top: 80px;
+}
+
+#second-img {
+  width: 47%;
+  height: 97%;
+  padding-left: 8%;
+  margin-left: 20%;
+}
+.mid {
+  background-image: url(images/shapes/Frame\ 57.jpg);
+  background-repeat: no-repeat;
 }
