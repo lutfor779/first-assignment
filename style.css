@@ -68,3 +68,9 @@ span {
 #contact-me {
   margin-top: 180px;
 }
+#text-format {
+  text-align: center;
+  margin-top: -300px;
+  width: 50%;
+  padding-left: 25%;
+}
