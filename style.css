@@ -19,12 +19,17 @@ p {
   line-height: 1.5;
   font-weight: 100;
 }
-#intro-color{
-  color: gray;
+footer {
+  text-align: center;
+  margin-top: 150px;
+  padding: 15px 0 120px;
+  background-color: black;
 }
 span {
   color: orange;
 }
+
+
 .flexiable {
   display: flex;
   height: 800px;
@@ -34,17 +39,16 @@ span {
   width: 50%;
   margin-top: 4%;
 }
-.intro {
-  width: 43%;
-  padding-top: 10%;
-  padding-left: 7%;
-}
 .half-width img {
   width: 95%;
   padding-right: 5%;
   padding-top: 2%;
 }
-
+.intro {
+  width: 43%;
+  padding-top: 10%;
+  padding-left: 7%;
+}
 .ancor {
   color: white;
   text-decoration: none;
@@ -54,67 +58,34 @@ span {
   border-radius: 60px;
   box-shadow: 10px 10px 40px rgba(231, 133, 94, 0.4);
 }
-#order-food {
-  margin-top: 80px;
-}
-.mid {
+.second-section {
   background-image: url(images/shapes/Frame\ 57.jpg);
   background-repeat: no-repeat;
 }
-#second-img {
-  width: 47%;
-  height: 97%;
-  padding-left: 8%;
-  margin-left: 20%;
-}
-.about-me {
+.introdction-area {
   width: 30%;
   padding-top: 2%;
   padding-left: 5%;
   padding-right: 15%;
 }
-.third {
+.last-section {
   width: 33%;
   margin: 4% 2%;
   border-radius: 35px;
   box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
   padding: 25px;
 }
-.third img {
+.last-section img {
   width: 100%;
 }
-#contact-me {
-  margin-top: 150px;
-}
-#title-format {
-  text-align: center;
-  margin-top: -300px;
-  width: 50%;
-  padding-left: 25%;
-}
 
-#one-box {
-  height: 90%;
-  width: 85%;
-  margin: 0 auto;
-  margin-top: 4%;
-  box-shadow: 10px 10px 40px gainsboro;
-  border-radius: 25px;
-}
 .title-container {
   width: 33%;
   margin: 1% 0;
   padding: 2% 0;
   padding-left: 10%;
 }
-
-footer {
-  text-align: center;
-  margin-top: 150px;
-  padding: 15px 0 120px;
-  background-color: black;
-}
-.font-sizing {
+.font-area {
   font-size: 50px;
   font-weight: 700;
   color: black;
@@ -123,15 +94,48 @@ footer {
 .sub-title {
   margin-top: 0;
 }
+
+
+
+
+#intro-color{
+  color: gray;
+}
+#food-order {
+  margin-top: 80px;
+}
+#second-img {
+  width: 47%;
+  height: 97%;
+  padding-left: 8%;
+  margin-left: 20%;
+}
+#contact-area {
+  margin-top: 150px;
+}
+#recipie-area {
+  text-align: center;
+  margin-top: -300px;
+  width: 50%;
+  padding-left: 25%;
+}
+#items {
+  margin: 0 5%;
+}
+#optional-area {
+  height: 90%;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 4%;
+  box-shadow: 10px 10px 40px gainsboro;
+  border-radius: 25px;
+}
 #footer-font {
   font-size: 40px;
 }
 #footer-font2 {
   font-size: 40px;
   color: gray;
-}
-#mid-area {
-  margin: 0 5%;
 }
 #ending{
   color: rgba(255, 255, 255, 0.9);
